@@ -12,6 +12,7 @@ namespace BusquedaCaracter
             cadena = Console.ReadLine();
             Console.WriteLine("Caracter que más se repite '{0}'", maxChar(cadena));
             Console.ReadKey();
+
         }
 
         public static char maxChar(string cadena)
